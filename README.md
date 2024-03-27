@@ -76,3 +76,24 @@ O objetivo desse desafio é avaliar a seus conhecimentos fundamentais de front e
 ##### Dúvidas: [vinicius.delfino@cadastra.com](mailto:vinicius.delfino@cadastra.com?subject=Dúvida%20Vaga%20DEV%20-%20Cadastra)
 
 #### Meu e-mail: [viniciusoliveiramoraescarvalho@gmail.com](mailto:viniciusoliveiramoraescarvalho@gmail.com)
+
+- Não utilizei nenhum framework ou biblioteca, apenas typescript, scss como ja estava no fork.
+- Como tive algumas dificuldades de internet devivo as fortes chuvas no Rio de janeiro, alguns detalhes deixei passar por esses problemas tecnicos, espero que compreendam.
+
+- Para rodar o projeto pelo padrão mesmo:
+
+```
+npm install
+
+npm start
+
+npm gulp
+
+```
+
+- Ou se preferir pode usar o yarn
+
+```
+yarn start e yarn gulp
+
+```
