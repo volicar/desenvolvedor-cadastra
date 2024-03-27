@@ -78,7 +78,7 @@ O objetivo desse desafio é avaliar a seus conhecimentos fundamentais de front e
 #### Meu e-mail: [viniciusoliveiramoraescarvalho@gmail.com](mailto:viniciusoliveiramoraescarvalho@gmail.com)
 
 - Não utilizei nenhum framework ou biblioteca, apenas typescript, scss como ja estava no fork.
-- Como tive algumas dificuldades de internet devivo as fortes chuvas no Rio de janeiro, alguns detalhes deixei passar por esses problemas tecnicos, espero que compreendam.
+- Como tive algumas dificuldades de internet devido as fortes chuvas no Rio de janeiro, alguns detalhes deixei passar por esses problemas tecnicos, espero que compreendam.
 
 - Para rodar o projeto pelo padrão mesmo:
 
