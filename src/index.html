@@ -25,50 +25,119 @@
       </a>
     </div>
   </header>
-  <div class="filter-sort-mobile">
-    
-  </div>
+
   <div class="container-principal">
     <h1 class="shirts">Blusas</h1>
-  <div class="container">
-    <div class="filters">
-      <h3 class="colors-title">Cores</h3>
-      <label><input type="checkbox" class="color-filter" value="Amarelo"> Amarelo</label>
-      <label><input type="checkbox" class="color-filter" value="Azul">Azul</label>
-      <label><input type="checkbox" class="color-filter" value="Preto"> Preto</label>
-      <label><input type="checkbox" class="color-filter" value="Branco"> Branco</label>
-      <label><input type="checkbox" class="color-filter" value="Rosa"> Rosa</label>
-      <label><input type="checkbox" class="color-filter" value="Cinza"> Cinza</label>
-      <label><input type="checkbox" class="color-filter" value="Laranja"> Laranja</label>
-
-      <h3 class="size-title">Tamanhos</h3>
-      <div class="size">
-        <button type="button" class="btn btn-size-filter" value="P">PP</button>
-        <button type="button" class="btn btn-size-filter" value="S">P</button>
-        <button type="button" class="btn btn-size-filter" value="M">M</button>
-        <button type="button" class="btn btn-size-filter" value="G">G</button>
-        <button type="button" class="btn btn-size-filter" value="GG">GG</button>
-        <button type="button" class="btn btn-size-filter" value="U">U</button>
-        <button type="button" class="btn btn-size-filter" value="36">36</button>
-        <button type="button" class="btn btn-size-filter" value="38">38</button>
-        <button type="button" class="btn btn-size-filter" value="40">40</button>
-        <button type="button" class="btn btn-size-filter" value="44">44</button>
-        <button type="button" class="btn btn-size-filter" value="46">46</button>
-      </div>
-
-
-      <h3 class="price-range-title">Faixa de Preço</h3>
-      <label><input type="checkbox" class="price-filter" value="0-10"> $0 - $10</label>
-      <label><input type="checkbox" class="price-filter" value="10-20"> $10 - $20</label>
-      <label><input type="checkbox" class="price-filter" value="20-30"> $20 - $30</label>
-      <label><input type="checkbox" class="price-filter" value="30-40"> $30 - $40</label>
-      <label><input type="checkbox" class="price-filter" value="30-40"> $30 - $40</label>
+    <div class="filter-sort-mobile">
+      <button class="filter-mobile">filtrar</button>
+      <button class="sort-mobile">ordenar</button>
     </div>
 
-    <div class="product-container row"></div>
+    <div id="filter-menu" class="menu">
+      <div class="header-menu">
+        <button class="close-menu">X</button>
+        <h2>Filtrar</h2>
+      </div>
+      <div class="filter-options">
+        <details>
+          <summary>Cores</summary>
+          <div class="price-summary">
+            <label><input type="checkbox" class="color-filter" value="Amarelo"> Amarelo</label>
+            <label><input type="checkbox" class="color-filter" value="Azul">Azul</label>
+            <label><input type="checkbox" class="color-filter" value="Preto"> Preto</label>
+            <label><input type="checkbox" class="color-filter" value="Branco"> Branco</label>
+            <label><input type="checkbox" class="color-filter" value="Rosa"> Rosa</label>
+            <label><input type="checkbox" class="color-filter" value="Cinza"> Cinza</label>
+            <label><input type="checkbox" class="color-filter" value="Laranja"> Laranja</label>
+          </div>
+        </details>
+        <details>
+          <summary>Tamanhos</summary>
+          <div>
+            <div class="size">
+              <button type="button" class="btn btn-size-filter" value="P">PP</button>
+              <button type="button" class="btn btn-size-filter" value="S">P</button>
+              <button type="button" class="btn btn-size-filter" value="M">M</button>
+              <button type="button" class="btn btn-size-filter" value="G">G</button>
+              <button type="button" class="btn btn-size-filter" value="GG">GG</button>
+              <button type="button" class="btn btn-size-filter" value="U">U</button>
+              <button type="button" class="btn btn-size-filter" value="36">36</button>
+              <button type="button" class="btn btn-size-filter" value="38">38</button>
+              <button type="button" class="btn btn-size-filter" value="40">40</button>
+              <button type="button" class="btn btn-size-filter" value="44">44</button>
+              <button type="button" class="btn btn-size-filter" value="46">46</button>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary>Faixa de preço</summary>
+          <div class="price-range-summary">
+            <label><input type="checkbox" class="price-filter" value="0-10"> $0 - $10</label>
+            <label><input type="checkbox" class="price-filter" value="10-20"> $10 - $20</label>
+            <label><input type="checkbox" class="price-filter" value="20-30"> $20 - $30</label>
+            <label><input type="checkbox" class="price-filter" value="30-40"> $30 - $40</label>
+            <label><input type="checkbox" class="price-filter" value="30-40"> $30 - $40</label>
+            <div class="btn-summary">
+              <button class="btn-apply">Aplicar</button>
+              <button class="btn-clear-summary">Limpar</button>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+
+    <!-- Menu de ordenação -->
+    <div id="sort-menu" class="menu">
+      <div class="header-menu">
+        <button class="close-menu">X</button>
+        <h2>Ordenar</h2>
+      </div>
+      <div class="sort-options">
+        <a href="">Mais recente</a>
+        <a href="">Maior preço</a>
+        <a href="">Menor preço</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="filters">
+        <h3 class="colors-title">Cores</h3>
+        <label><input type="checkbox" class="color-filter" value="Amarelo"> Amarelo</label>
+        <label><input type="checkbox" class="color-filter" value="Azul">Azul</label>
+        <label><input type="checkbox" class="color-filter" value="Preto"> Preto</label>
+        <label><input type="checkbox" class="color-filter" value="Branco"> Branco</label>
+        <label><input type="checkbox" class="color-filter" value="Rosa"> Rosa</label>
+        <label><input type="checkbox" class="color-filter" value="Cinza"> Cinza</label>
+        <label><input type="checkbox" class="color-filter" value="Laranja"> Laranja</label>
+
+        <h3 class="size-title">Tamanhos</h3>
+        <div class="size">
+          <button type="button" class="btn btn-size-filter" value="P">PP</button>
+          <button type="button" class="btn btn-size-filter" value="S">P</button>
+          <button type="button" class="btn btn-size-filter" value="M">M</button>
+          <button type="button" class="btn btn-size-filter" value="G">G</button>
+          <button type="button" class="btn btn-size-filter" value="GG">GG</button>
+          <button type="button" class="btn btn-size-filter" value="U">U</button>
+          <button type="button" class="btn btn-size-filter" value="36">36</button>
+          <button type="button" class="btn btn-size-filter" value="38">38</button>
+          <button type="button" class="btn btn-size-filter" value="40">40</button>
+          <button type="button" class="btn btn-size-filter" value="44">44</button>
+          <button type="button" class="btn btn-size-filter" value="46">46</button>
+        </div>
+
+
+        <h3 class="price-range-title">Faixa de Preço</h3>
+        <label><input type="checkbox" class="price-filter" value="0-10"> $0 - $10</label>
+        <label><input type="checkbox" class="price-filter" value="10-20"> $10 - $20</label>
+        <label><input type="checkbox" class="price-filter" value="20-30"> $20 - $30</label>
+        <label><input type="checkbox" class="price-filter" value="30-40"> $30 - $40</label>
+        <label><input type="checkbox" class="price-filter" value="30-40"> $30 - $40</label>
+      </div>
+
+      <div class="product-container row"></div>
+    </div>
   </div>
-  </div>
-  
+
   <button class="load-more-button">Carregar Mais</button>
   <footer class="footer">
     <span>CADASTRA: Implantação de E-commerce VTEX</span>
