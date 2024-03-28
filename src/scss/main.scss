@@ -100,6 +100,7 @@ body {
   font-size: 16px;
   color: var(--cor-cinza-600);
   margin-bottom: 14px;
+
 }
 
 .size-title{
@@ -107,6 +108,14 @@ body {
   color: var(--cor-cinza-600);
   text-transform: uppercase;
   margin: 24px 0;
+}
+
+.size-title,
+.price-range-title,
+.colors-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: var(--cor-cinza-600);
 }
 
 .size{
@@ -379,6 +388,11 @@ summary::after {
   margin-right: 16px;
   float: right;
   transition: transform 0.3s ease; 
+}
+
+summary {
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 
