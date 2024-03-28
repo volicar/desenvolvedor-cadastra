@@ -91,7 +91,7 @@ npm gulp
 
 ```
 
-- Ou se preferir pode usar o yarn
+- Ou se preferir pode usar o yarn.
 
 ```
 yarn start e yarn gulp
